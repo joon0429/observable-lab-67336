@@ -20,3 +20,4 @@ const forecast = await json(station.properties.forecastHourly);
 
 // converts the output into a JSON string (using JSON.stringify()) and prints it to the console (process.stdout.write())
 process.stdout.write(JSON.stringify(forecast));
+
